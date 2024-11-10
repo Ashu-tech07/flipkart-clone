@@ -85,7 +85,7 @@ export default function Header() {
                     <IconButton>
                         <MenuIcon sx={{ display: { xs: 'flex', sm: 'none' }, }} />
                     </IconButton>
-                    <Box component={Link} to='/flipkart-clone' sx={{ marginRight: '3rem', ml: 0 }}>
+                    <Box component={Link} to='/' sx={{ marginRight: '3rem', ml: 0 }}>
                         {console.log("data", fkHeaderLogo)}
                         <img alt='fk_title' src={fkHeaderLogo} />
                     </Box>

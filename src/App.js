@@ -2,6 +2,7 @@ import './App.css';
 import Header from "./screens/header/Header"
 import { FooterComp } from './screens/FooterComp';
 import Navigations from './navigation/Navigations'
+import Footer from './screens/Footer';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Navigations />
       <FooterComp />
+      <Footer />
     </>
   )
 }
